@@ -1,0 +1,102 @@
+{
+    "vaults": [
+        {
+            "debt_ratio": "1.",
+            "positions": [
+                {"token0": "USDC", "token1": "USDT", "left_price": ".98", "right_price": "1.02", "capital": 5000},
+                {"token0": "USDC", "token1": "DAI", "left_price": ".98", "right_price": "1.02", "capital": 5000}
+            ]
+        },
+        {
+            "debt_ratio": "1.",
+            "positions": [
+                {"token0": "USDC", "token1": "USDT", "left_price": ".99", "right_price": "1.01", "capital": 10000}
+            ]
+        },
+        {
+            "debt_ratio": "1.",
+            "positions": [
+                {"token0": "USDC", "token1": "DAI", "left_price": ".99", "right_price": "1.01", "capital": 10000}
+            ]
+        },
+        {
+            "debt_ratio": "1.",
+            "positions": [
+                {"token0": "wstETH", "token1": "ETH", "left_price": ".88", "right_price": ".91", "capital": 10000}
+            ]
+        },
+        {
+            "debt_ratio": "1.",
+            "positions": [
+                {"token0": "BTC", "token1": "ETH", "left_price": "14.", "right_price": "16.", "capital": 10000}
+            ]
+        },
+        {
+            "debt_ratio": "1.",
+            "positions": [
+                {"token0": "ETH", "token1": "USDC", "left_price": "1500.", "right_price": "1700.", "capital": 10000}
+            ]
+        },
+        {
+            "debt_ratio": "1.",
+            "positions": [
+                {"token0": "BOB", "token1": "USDC", "left_price": ".98", "right_price": "1.02", "capital": 10000}
+            ]
+        },
+        {
+            "debt_ratio": "1.",
+            "positions": [
+                {"token0": "MATIC", "token1": "USDC", "left_price": "1.", "right_price": "1.15", "capital": 5000},
+                {"token0": "ETH", "token1": "MATIC", "left_price": "1400.", "right_price": "1600.", "capital": 5000}
+            ]
+        },
+        {
+            "debt_ratio": "1.",
+            "positions": [
+                {"token0": "stMATIC", "token1": "MATIC", "left_price": "1.061", "right_price": "1.065", "capital": 10000}
+            ]
+        }
+    ],
+    "jumps": {
+        "BTC": [{"value": ".9", "probability": ".005"}, {"value": ".75", "probability": ".008"}, {"value": ".5", "probability": ".003"}],
+        "DAI": [{"value": ".9", "probability": ".005"}, {"value": ".95", "probability": ".005"}],
+        "ETH": [{"value": ".9", "probability": ".005"}, {"value": ".75", "probability": ".008"}, {"value": ".5", "probability": ".003"}],
+        "MATIC": [{"value": ".9", "probability": ".005"}, {"value": ".75", "probability": ".008"}, {"value": ".5", "probability": ".003"}],
+        "USDC": [{"value": ".9", "probability": ".002"}, {"value": ".95", "probability": ".002"}],
+        "USDT": [{"value": ".9", "probability": ".002"}, {"value": ".95", "probability": ".002"}],
+        "stMATIC": [{"value": ".9", "probability": ".005"}, {"value": ".75", "probability": ".008"}, {"value": ".5", "probability": ".003"}],
+        "wstETH": [{"value": ".9", "probability": ".005"}, {"value": ".75", "probability": ".008"}, {"value": ".5", "probability": ".003"}]
+    },
+    "jump_recoveries": {
+        "BTC": 72,
+        "DAI": 24,
+        "ETH": 72,
+        "MATIC": 72,
+        "USDC": 24,
+        "USDT": 24,
+        "stMATIC": 72,
+        "wstETH": 72
+    },
+    "liquidation_thresholds": {
+        "ETH / USDC": ".8",
+        "ETH / BTC": ".8",
+        "wstETH / ETH": ".85",
+        "USDC / DAI": ".95",
+        "USDC / USDT": ".95",
+        "MATIC / USDC": ".8",
+        "ETH / MATIC": ".8",
+        "stMATIC / MATIC": ".85",
+        "BOB / USDC": ".95"
+    },
+    "borrow_thresholds": {
+        "ETH / USDC": ".75",
+        "ETH / BTC": ".75",
+        "wstETH / ETH": ".8",
+        "USDC / DAI": ".9",
+        "USDC / USDT": ".9",
+        "MATIC / USDC": ".75",
+        "ETH / MATIC": ".75",
+        "stMATIC / MATIC": ".8",
+        "BOB / USDC": ".9"
+    }
+}

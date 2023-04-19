@@ -58,14 +58,14 @@
         }
     ],
     "jumps": {
-        "BTC": [{"value": ".9", "probability": ".005"}, {"value": ".75", "probability": ".008"}, {"value": ".5", "probability": ".003"}],
+        "BTC": [{"value": ".9", "probability": ".005"}, {"value": ".8", "probability": ".008"}, {"value": ".7", "probability": ".003"}],
         "DAI": [{"value": ".9", "probability": ".005"}, {"value": ".95", "probability": ".005"}],
-        "ETH": [{"value": ".9", "probability": ".005"}, {"value": ".75", "probability": ".008"}, {"value": ".5", "probability": ".003"}],
-        "MATIC": [{"value": ".9", "probability": ".005"}, {"value": ".75", "probability": ".008"}, {"value": ".5", "probability": ".003"}],
+        "ETH": [{"value": ".9", "probability": ".005"}, {"value": ".8", "probability": ".008"}, {"value": ".7", "probability": ".003"}],
+        "MATIC": [{"value": ".9", "probability": ".005"}, {"value": ".8", "probability": ".008"}, {"value": ".7", "probability": ".003"}],
         "USDC": [{"value": ".9", "probability": ".002"}, {"value": ".95", "probability": ".002"}],
         "USDT": [{"value": ".9", "probability": ".002"}, {"value": ".95", "probability": ".002"}],
-        "stMATIC": [{"value": ".9", "probability": ".005"}, {"value": ".75", "probability": ".008"}, {"value": ".5", "probability": ".003"}],
-        "wstETH": [{"value": ".9", "probability": ".005"}, {"value": ".75", "probability": ".008"}, {"value": ".5", "probability": ".003"}]
+        "stMATIC": [{"value": ".9", "probability": ".005"}, {"value": ".8", "probability": ".008"}, {"value": ".7", "probability": ".003"}],
+        "wstETH": [{"value": ".9", "probability": ".005"}, {"value": ".8", "probability": ".008"}, {"value": ".7", "probability": ".003"}]
     },
     "jump_recoveries": {
         "BTC": 72,
@@ -78,25 +78,25 @@
         "wstETH": 72
     },
     "liquidation_thresholds": {
-        "ETH / USDC": ".8",
-        "ETH / BTC": ".8",
-        "wstETH / ETH": ".85",
-        "USDC / DAI": ".95",
-        "USDC / USDT": ".95",
-        "MATIC / USDC": ".8",
-        "ETH / MATIC": ".8",
-        "stMATIC / MATIC": ".85",
-        "BOB / USDC": ".95"
-    },
-    "borrow_thresholds": {
-        "ETH / USDC": ".75",
-        "ETH / BTC": ".75",
-        "wstETH / ETH": ".8",
+        "ETH / USDC": ".83",
+        "ETH / BTC": ".78",
+        "wstETH / ETH": ".75",
         "USDC / DAI": ".9",
         "USDC / USDT": ".9",
-        "MATIC / USDC": ".75",
-        "ETH / MATIC": ".75",
-        "stMATIC / MATIC": ".8",
+        "MATIC / USDC": ".83",
+        "ETH / MATIC": ".83",
+        "stMATIC / MATIC": ".75",
         "BOB / USDC": ".9"
+    },
+    "borrow_thresholds": {
+        "ETH / USDC": ".78",
+        "ETH / BTC": ".73",
+        "wstETH / ETH": ".7",
+        "USDC / DAI": ".85",
+        "USDC / USDT": ".85",
+        "MATIC / USDC": ".78",
+        "ETH / MATIC": ".78",
+        "stMATIC / MATIC": ".7",
+        "BOB / USDC": ".85"
     }
 }

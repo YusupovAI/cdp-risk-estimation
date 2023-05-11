@@ -55,6 +55,12 @@
             "positions": [
                 {"token0": "stMATIC", "token1": "MATIC", "left_price": "1.061", "right_price": "1.065", "capital": 10000}
             ]
+        },
+        {
+            "debt_ratio": "1.",
+            "positions": [
+                {"token0": "ETH", "token1": "BOB", "left_price": "1500.", "right_price": "1700.", "capital": 10000}
+            ]
         }
     ],
     "jumps": {
@@ -86,7 +92,8 @@
         "MATIC / USDC": ".83",
         "ETH / MATIC": ".83",
         "stMATIC / MATIC": ".75",
-        "BOB / USDC": ".9"
+        "BOB / USDC": ".9",
+        "BOB / ETH": ".83"
     },
     "borrow_thresholds": {
         "ETH / USDC": ".78",
@@ -97,6 +104,7 @@
         "MATIC / USDC": ".78",
         "ETH / MATIC": ".78",
         "stMATIC / MATIC": ".7",
-        "BOB / USDC": ".85"
+        "BOB / USDC": ".85",
+        "BOB / ETH": ".78"
     }
 }
